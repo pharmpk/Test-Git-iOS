@@ -21,6 +21,7 @@
 		23BE6E991909F4E900813263 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23BE6E7B1909F4E900813263 /* UIKit.framework */; };
 		23BE6EA11909F4E900813263 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23BE6E9F1909F4E900813263 /* InfoPlist.strings */; };
 		23BE6EA31909F4E900813263 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BE6EA21909F4E900813263 /* Git_TestTests.m */; };
+		23BE6EAE1909F7CE00813263 /* DB_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BE6EAD1909F7CE00813263 /* DB_Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		23BE6E9E1909F4E900813263 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		23BE6EA01909F4E900813263 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		23BE6EA21909F4E900813263 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		23BE6EAC1909F7CE00813263 /* DB_Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DB_Test.h; sourceTree = "<group>"; };
+		23BE6EAD1909F7CE00813263 /* DB_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DB_Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		23BE6E6B1909F4E900813263 = {
 			isa = PBXGroup;
 			children = (
+				23BE6EAC1909F7CE00813263 /* DB_Test.h */,
+				23BE6EAD1909F7CE00813263 /* DB_Test.m */,
 				23BE6E7D1909F4E900813263 /* Git Test */,
 				23BE6E9C1909F4E900813263 /* Git TestTests */,
 				23BE6E761909F4E900813263 /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23BE6E881909F4E900813263 /* DB_AppDelegate.m in Sources */,
+				23BE6EAE1909F7CE00813263 /* DB_Test.m in Sources */,
 				23BE6E841909F4E900813263 /* main.m in Sources */,
 				23BE6E8E1909F4E900813263 /* DB_ViewController.m in Sources */,
 			);
